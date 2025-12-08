@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Casa principal (mais escura) -->
+  <path d="M8 20 L8 28 L24 28 L24 20 L16 12 Z" fill="#009739"/>
+  
+  <!-- Casa de fundo (mais clara, sobreposta) -->
+  <path d="M10 18 L10 26 L26 26 L26 18 L18 10 Z" fill="#00B84A" opacity="0.7"/>
+  
+  <!-- Telhado da casa principal -->
+  <path d="M6 20 L16 10 L26 20 Z" fill="#009739"/>
+  
+  <!-- Telhado da casa de fundo -->
+  <path d="M8 18 L18 8 L28 18 Z" fill="#00B84A" opacity="0.7"/>
+</svg>

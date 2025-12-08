@@ -1,0 +1,61 @@
+===========================================
+COMANDOS GIT PARA DEPLOY NO GITHUB PAGES
+Projeto: Zotti & Zotti
+Repositório: https://github.com/fantastkill/zotti-zotti.git
+===========================================
+
+1. NAVEGAR ATÉ A PASTA DO PROJETO
+----------------------------------
+cd "c:\Users\conta\OneDrive\Desktop\Projetos\zotti zotti"
+
+
+2. INICIALIZAR GIT (se ainda não foi feito)
+---------------------------------------------
+git init
+
+
+3. ADICIONAR TODOS OS ARQUIVOS
+-------------------------------
+git add .
+
+
+4. FAZER O PRIMEIRO COMMIT
+---------------------------
+git commit -m "Preparar projeto Zotti Zotti para GitHub Pages"
+
+
+5. RENOMEAR BRANCH PARA MAIN
+-----------------------------
+git branch -M main
+
+
+6. ADICIONAR REPOSITÓRIO REMOTO
+--------------------------------
+git remote add origin https://github.com/fantastkill/zotti-zotti.git
+
+
+7. VERIFICAR SE FOI ADICIONADO CORRETAMENTE
+-------------------------------------------
+git remote -v
+
+
+8. ENVIAR CÓDIGO PARA O GITHUB
+------------------------------
+git push -u origin main
+
+
+===========================================
+NOTAS IMPORTANTES:
+===========================================
+
+- Se o repositório já existir e tiver conteúdo, use:
+  git pull origin main --allow-unrelated-histories
+  (resolva conflitos se houver)
+  git push -u origin main
+
+- Após o push, vá em Settings > Pages no GitHub
+- Selecione branch: main, folder: / (root) ou /public_html
+- O site estará em: https://fantastkill.github.io/zotti-zotti/
+
+===========================================
+

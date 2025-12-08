@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://zotti.eng.br/sitemap.xml
+
+# Diretórios permitidos
+Allow: /public/
+Allow: /public/css/
+Allow: /public/js/
+Allow: /public/images/
+
+# Arquivos importantes
+Allow: /index.html
+Allow: /laudos-engenharia.html
+Allow: /vistorias-imoveis.html
+Allow: /pericias-engenharia.html
+Allow: /contato.html
+
+# Crawl-delay para evitar sobrecarga
+Crawl-delay: 1
+
+# Informações adicionais para Zotti Engenharia
+# Zotti Engenharia, Laudos de Engenharia, Vistorias, Perícias
+# Engenharia Civil São Paulo, ART RRT, Inspeção Predial

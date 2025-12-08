@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residencial Santos Dumont - Zotti&Zotti</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="public/css/styles.css?v=20250929">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NOVO LOADER COM LOGO E BOAS-VINDAS -->
+    <div id="novoLoader" class="novo-loader">
+        <div class="loader-logo">
+            <img src="assets/images/zottizottilogo.jpeg" alt="Zotti&Zotti" class="loader-img">
+        </div>
+        <h2 class="loader-title">Zotti&Zotti</h2>
+        <p class="loader-subtitle">Bem-vindo ao nosso site</p>
+        <div class="loader-spinner"></div>
+        <p class="loader-text">Carregando...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo" onclick="window.location.href='index.html'" style="cursor: pointer;">
+                    <img src="assets/images/zottizottilogo.jpeg" alt="Zotti & Zotti" class="logo-img">
+                    <div class="company-info">
+                        <span class="company-name">Zotti & Zotti</span>
+                        <span class="company-subtitle">Empreendimentos Imobiliários</span>
+                    </div>
+                    <span class="company-years">
+                        <span class="number">24</span>
+                        <span class="text">Anos</span>
+                    </span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#sobre" class="nav-link">Sobre Nós</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section do Empreendimento -->
+    <section class="empreendimentos-hero-section">
+        <div class="hero-content">
+            <h1>Residencial Santos Dumont</h1>
+            <p>Um projeto que combina conforto e sofisticação em um dos melhores endereços da cidade</p>
+        </div>
+    </section>
+
+    <!-- Seção Detalhada do Empreendimento -->
+    <section class="empreendimento-detalhe-section santos-dumont">
+        <div class="container">
+            <div class="empreendimento-header">
+                <h2>Residencial Santos Dumont</h2>
+                <div class="status-badge-large concluido">Concluído</div>
+            </div>
+
+            <!-- Hero do Empreendimento -->
+            <div class="empreendimento-hero">
+                <img src="assets/images/galeria/Fotos Resid. Santos Dummont/ResidencialSantosDumont.jpg" alt="Residencial Santos Dumont" class="hero-image-real">
+            </div>
+
+            <!-- Informações Detalhadas -->
+            <div class="empreendimento-info-detalhada">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Características</h3>
+                        <style>
+                            .caracteristicas-centralizadas {
+                                text-align: center !important;
+                                list-style: none !important;
+                                padding: 0 !important;
+                            }
+                            .caracteristicas-centralizadas li {
+                                position: relative !important;
+                                padding: 0.5rem 0 !important;
+                                border-bottom: 1px solid var(--gray-light) !important;
+                                padding-left: 0 !important;
+                                display: flex !important;
+                                align-items: center !important;
+                                justify-content: center !important;
+                            }
+                            .caracteristicas-centralizadas li:before {
+                                content: '✓' !important;
+                                position: relative !important;
+                                left: auto !important;
+                                color: var(--primary-green) !important;
+                                font-weight: bold !important;
+                                margin-right: 8px !important;
+                            }
+                        </style>
+                        <ul class="caracteristicas-centralizadas">
+                            <li><strong>2 dormitórios</strong></li>
+                            <li><strong>Área a partir de 66 m²</strong></li>
+                            <li><strong>Quarto com sacada integrada</strong></li>
+                            <li><strong>Vagas demarcadas</strong></li>
+                            <li><strong>Quintal privativo com área de serviço</strong></li>
+                            <li><strong>Acabamento nas áreas frias</strong></li>
+                            <li><strong>Apenas 4 sobrados</strong></li>
+                            <li><strong>Um banheiro + um lavabo</strong></li>
+                            <li><strong>Porteiro inteligente</strong></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Ficha Técnica -->
+            <div class="ficha-tecnica">
+                <div class="ficha-grid">
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Endereço</span>
+                        <p>R. Santos Dumont, 211 - Vila Andeyara<br>Ferraz de Vasconcelos - SP, 08544-600</p>
+                        <div class="mapa-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7315.837531618371!2d-46.36331847150189!3d-23.53542398674434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce652cbaefbd13%3A0x352f56919c3eebb4!2sR.%20Santos%20Dumont%2C%20211%20-%20Vila%20Andeyara%2C%20Ferraz%20de%20Vasconcelos%20-%20SP%2C%2008544-600!5e0!3m2!1spt-BR!2sbr!4v1756823418269!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <h3>Ficha Técnica</h3>
+                <div class="ficha-cards-container">
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Incorporação e Construção</span>
+                        <p>Zotti & Zotti Empreendimentos Imobiliários</p>
+                    </div>
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Projeto Arquitetura</span>
+                        <p>Zotti & Zotti Empreendimentos</p>
+                    </div>
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Área do terreno</span>
+                        <p>320,00 m²</p>
+                    </div>
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Área Construída</span>
+                        <p>266,72 m²</p>
+                    </div>
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Estrutura do Edifício</span>
+                        <p>1 pavimento<br>4 unidades</p>
+                    </div>
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Total de Unidades</span>
+                        <p>4</p>
+                    </div>
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Vagas de Garagem</span>
+                        <p>4</p>
+                    </div>
+                    <div class="ficha-item">
+                        <span class="ficha-categoria">Área da unidade</span>
+                        <p>A partir de 60 m²</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Galeria de Fotos -->
+            <div class="galeria-section">
+                <h3>Galeria de Fotos</h3>
+                <div class="galeria-grid">
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto1.jpg', 'Residencial Santos Dumont - Vista Externa')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto1.jpg" alt="Residencial Santos Dumont - Vista Externa" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto2.jpg', 'Residencial Santos Dumont - Fachada')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto2.jpg" alt="Residencial Santos Dumont - Fachada" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto3.jpg', 'Residencial Santos Dumont - Área Comum')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto3.jpg" alt="Residencial Santos Dumont - Área Comum" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto4.jpg', 'Residencial Santos Dumont - Detalhes')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto4.jpg" alt="Residencial Santos Dumont - Detalhes" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto5.jpg', 'Residencial Santos Dumont - Vista Panorâmica')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto5.jpg" alt="Residencial Santos Dumont - Vista Panorâmica" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto6.jpeg', 'Residencial Santos Dumont - Área de Lazer')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto6.jpeg" alt="Residencial Santos Dumont - Área de Lazer" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto7.jpg', 'Residencial Santos Dumont - Entrada')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto7.jpg" alt="Residencial Santos Dumont - Entrada" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto8.jpeg', 'Residencial Santos Dumont - Vista Interna')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto8.jpeg" alt="Residencial Santos Dumont - Vista Interna" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto9.jpeg', 'Residencial Santos Dumont - Detalhes Arquitetônicos')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto9.jpeg" alt="Residencial Santos Dumont - Detalhes Arquitetônicos" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto10.jpg', 'Residencial Santos Dumont - Vista Noturna')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto10.jpg" alt="Residencial Santos Dumont - Vista Noturna" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto11.jpeg', 'Residencial Santos Dumont - Áreas Verdes')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto11.jpeg" alt="Residencial Santos Dumont - Áreas Verdes" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/foto13.jpg', 'Residencial Santos Dumont - Finalização')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/foto13.jpg" alt="Residencial Santos Dumont - Finalização" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/Fotos Resid. Santos Dummont/ResidencialSantosDumont.jpeg', 'Residencial Santos Dumont - Vista Alternativa')">
+                        <img src="assets/images/galeria/Fotos Resid. Santos Dummont/ResidencialSantosDumont.jpeg" alt="Residencial Santos Dumont - Vista Alternativa" class="galeria-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção de Plantas -->
+            <div class="plantas-section">
+                <h3>Plantas dos Sobrados</h3>
+                <div class="plantas-grid">
+                    <div class="planta-item" onclick="openModal('assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR.jpg', 'Pavimento Inferior')">
+                        <img src="assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR.jpg" alt="Pavimento Inferior" class="planta-image">
+                        <span>Pavimento Inferior</span>
+                    </div>
+                    <div class="planta-item" onclick="openModal('assets/images/galeria/plantasantosdumont/PAVIMENTO SUPERIOR.jpg', 'Pavimento Superior')">
+                        <img src="assets/images/galeria/plantasantosdumont/PAVIMENTO SUPERIOR.jpg" alt="Pavimento Superior" class="planta-image">
+                        <span>Pavimento Superior</span>
+                    </div>
+                    <div class="planta-item" onclick="openModal('assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR - CASA 1 E 3.jpg', 'Casa 1 e 3 - Pavimento Inferior')">
+                        <img src="assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR - CASA 1 E 3.jpg" alt="Casa 1 e 3 - Pavimento Inferior" class="planta-image">
+                        <span>Casa 1 e 3 - Pavimento Inferior</span>
+                    </div>
+                    <div class="planta-item" onclick="openModal('assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR - CASA 2 E 4.jpg', 'Casa 2 e 4 - Pavimento Inferior')">
+                        <img src="assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR - CASA 2 E 4.jpg" alt="Casa 2 e 4 - Pavimento Inferior" class="planta-image">
+                        <span>Casa 2 e 4 - Pavimento Inferior</span>
+                    </div>
+                    <div class="planta-item" onclick="openModal('assets/images/galeria/plantasantosdumont/PAVIMENTO SUPERIOR - CASA 1 E 3 (3).jpg', 'Casa 1 e 3 - Pavimento Superior')">
+                        <img src="assets/images/galeria/plantasantosdumont/PAVIMENTO SUPERIOR - CASA 1 E 3 (3).jpg" alt="Casa 1 e 3 - Pavimento Superior" class="planta-image">
+                        <span>Casa 1 e 3 - Pavimento Superior</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/zottizottilogo.jpeg" alt="Zotti&Zotti" class="footer-logo-img">
+                    <span>24 Anos de Excelência</span>
+                    <div class="footer-logo-cnpj">
+                        <i class="fas fa-building"></i> CNPJ: 04.651.727/0001-90
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-section">
+                        <h4>Contato</h4>
+                        <p><i class="fas fa-phone"></i> (11) 93902-9785</p>
+                        <p><i class="fas fa-envelope"></i> contato@zottizotti.com.br</p>
+                        <p><i class="fas fa-map-marker-alt"></i> São Paulo, SP</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/Zottizottiemp" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/zottizottiemp" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@zottizottiemp" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <a href="https://conecta4you.com/" target="_blank" style="color: inherit; text-decoration: none;">conecta4you</a>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5511939029785" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal para visualização das fotos -->
+    <div id="imageModal" class="image-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="" alt="Imagem Ampliada">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/js/script.js?v=20250929"></script>
+</body>
+</html>
+

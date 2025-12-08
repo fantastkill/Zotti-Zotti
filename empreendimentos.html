@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empreendimentos - Zotti&Zotti</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+    <link rel="stylesheet" href="./public/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NOVO LOADER COM LOGO E BOAS-VINDAS -->
+    <div id="novoLoader" class="novo-loader">
+        <div class="loader-logo">
+            <img src="./assets/images/zottizottilogo.jpeg" alt="Zotti&Zotti" class="loader-img">
+        </div>
+        <h2 class="loader-title">Zotti&Zotti</h2>
+        <p class="loader-subtitle">Bem-vindo ao nosso site</p>
+        <div class="loader-spinner"></div>
+        <p class="loader-text">Carregando...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo" onclick="window.location.href='index.html'" style="cursor: pointer;">
+                    <img src="./assets/images/zottizottilogo.jpeg" alt="Zotti & Zotti" class="logo-img">
+                    <div class="company-info">
+                        <span class="company-name">Zotti & Zotti</span>
+                        <span class="company-subtitle">Empreendimentos Imobiliários</span>
+                    </div>
+                    <span class="company-years">
+                        <span class="number">24</span>
+                        <span class="text">Anos</span>
+                    </span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#sobre" class="nav-link">Sobre Nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="empreendimentos.html" class="nav-link active">Empreendimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section dos Empreendimentos -->
+    <section class="empreendimentos-hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-title">Nossos Empreendimentos</h1>
+                <p class="animate-subtitle">Conheça os projetos que transformam sonhos em realidade</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Santos Dumont -->
+    <section id="santos-dumont" class="empreendimento-detalhe-section">
+        <div class="container">
+            <div class="empreendimento-header">
+                <h2 class="section-title">Residencial Santos Dumont</h2>
+                <div class="status-badge-large concluido">Concluído</div>
+            </div>
+            
+            <div class="empreendimento-hero">
+                <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/ResidencialSantosDumont.jpg" alt="Residencial Santos Dumont" class="hero-image-real">
+            </div>
+
+            <div class="empreendimento-info-detalhada">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Características</h3>
+                        <ul>
+                            <li><strong>2 dormitórios</strong> – conforto e privacidade para sua família</li>
+                            <li><strong>Área a partir de 66 m²</strong> – espaços bem distribuídos e funcionais</li>
+                            <li><strong>Quarto com sacada integrada</strong> – iluminação natural e ventilação privilegiada</li>
+                            <li><strong>Vagas demarcadas</strong> – mais organização e segurança ao estacionar</li>
+                            <li><strong>Quintal privativo com área de serviço</strong> – ideal para lazer ao ar livre, jardinagem ou pets</li>
+                            <li><strong>Acabamento nas áreas frias</strong> – qualidade em cada detalhe</li>
+                            <li><strong>Apenas 4 sobrados</strong> – exclusividade, tranquilidade e menos circulação</li>
+                            <li><strong>Um banheiro + um lavabo</strong> – praticidade para o dia a dia</li>
+                            <li><strong>Porteiro inteligente</strong> – modernidade e segurança para sua família</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h3>Localização</h3>
+                        <p>Localizado em um dos melhores endereços da cidade, com fácil acesso a comércio, escolas e transporte público.</p>
+                        <div class="mapa-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1234567890123!2d-46.12345678901234!3d-23.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDA3JzM0LjQiUyA0NsKwMDcnMzQuNCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890123"
+                                width="100%" 
+                                height="200" 
+                                style="border:0; border-radius: 10px; margin-top: 15px;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="galeria-section">
+                <h3>Galeria</h3>
+                <div class="galeria-grid">
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/ResidencialSantosDumont.jpg" alt="Residencial Santos Dumont" class="galeria-image">
+                        <span>Residencial Santos Dumont</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto1.jpg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto2.jpg" alt="Áreas Verdes" class="galeria-image">
+                        <span>Áreas Verdes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto3.jpg" alt="Detalhes" class="galeria-image">
+                        <span>Detalhes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto4.jpg" alt="Fachada" class="galeria-image">
+                        <span>Fachada</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto5.jpg" alt="Área Comum" class="galeria-image">
+                        <span>Área Comum</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto6.jpeg" alt="Detalhes Arquitetônicos" class="galeria-image">
+                        <span>Detalhes Arquitetônicos</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto7.jpg" alt="Vista Noturna" class="galeria-image">
+                        <span>Vista Noturna</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto8.jpeg" alt="Entrada Principal" class="galeria-image">
+                        <span>Entrada Principal</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto9.jpeg" alt="Vista Interna" class="galeria-image">
+                        <span>Vista Interna</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto10.jpg" alt="Área de Lazer" class="galeria-image">
+                        <span>Área de Lazer</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto11.jpeg" alt="Vista Panorâmica" class="galeria-image">
+                        <span>Vista Panorâmica</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto12.jpg" alt="Detalhes" class="galeria-image">
+                        <span>Detalhes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto13.jpg" alt="Vista Geral" class="galeria-image">
+                        <span>Vista Geral</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto1.jpg" alt="Área Comum" class="galeria-image">
+                        <span>Área Comum</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto2.jpg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto3.jpg" alt="Detalhes" class="galeria-image">
+                        <span>Detalhes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto4.jpg" alt="Vista Interna" class="galeria-image">
+                        <span>Vista Interna</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto5.jpg" alt="Vista Panorâmica" class="galeria-image">
+                        <span>Vista Panorâmica</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto6.jpeg" alt="Área de Lazer" class="galeria-image">
+                        <span>Área de Lazer</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto7.jpg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto8.jpeg" alt="Detalhes" class="galeria-image">
+                        <span>Detalhes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto9.jpeg" alt="Vista Interna" class="galeria-image">
+                        <span>Vista Interna</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto10.jpg" alt="Área Comum" class="galeria-image">
+                        <span>Área Comum</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto4.jpg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto11.jpeg" alt="Vista Panorâmica" class="galeria-image">
+                        <span>Vista Panorâmica</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto12.jpg" alt="Vista Geral" class="galeria-image">
+                        <span>Vista Geral</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto13.jpg" alt="Área de Lazer" class="galeria-image">
+                        <span>Área de Lazer</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto1.jpg" alt="Vista Panorâmica" class="galeria-image">
+                        <span>Vista Panorâmica</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto2.jpg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto5.jpg" alt="Vista Interna" class="galeria-image">
+                        <span>Vista Interna</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto6.jpeg" alt="Área de Lazer" class="galeria-image">
+                        <span>Área de Lazer</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto7.jpg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto8.jpeg" alt="Detalhes" class="galeria-image">
+                        <span>Detalhes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto9.jpeg" alt="Vista Interna" class="galeria-image">
+                        <span>Vista Interna</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto10.jpg" alt="Área Comum" class="galeria-image">
+                        <span>Área Comum</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto11.jpeg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto12.jpg" alt="Detalhes" class="galeria-image">
+                        <span>Detalhes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto13.jpg" alt="Vista Panorâmica" class="galeria-image">
+                        <span>Vista Panorâmica</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto1.jpg" alt="Área de Lazer" class="galeria-image">
+                        <span>Área de Lazer</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto2.jpg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto3.jpg" alt="Vista Panorâmica" class="galeria-image">
+                        <span>Vista Panorâmica</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto4.jpg" alt="Área Comum" class="galeria-image">
+                        <span>Área Comum</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto5.jpg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto6.jpeg" alt="Detalhes" class="galeria-image">
+                        <span>Detalhes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto7.jpg" alt="Vista Interna" class="galeria-image">
+                        <span>Vista Interna</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto8.jpeg" alt="Área de Lazer" class="galeria-image">
+                        <span>Área de Lazer</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto9.jpeg" alt="Vista Externa" class="galeria-image">
+                        <span>Vista Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto10.jpg" alt="Detalhes" class="galeria-image">
+                        <span>Detalhes</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto11.jpeg" alt="Vista Panorâmica" class="galeria-image">
+                        <span>Vista Panorâmica</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/Fotos Resid. Santos Dummont/foto3.jpg" alt="Vista Geral" class="galeria-image">
+                        <span>Vista Geral</span>
+                    </div>
+                </div>
+            </div>
+
+                         <div class="plantas-section">
+                 <h3>Plantas</h3>
+                 <div class="plantas-grid">
+                     <div class="planta-item" onclick="openModal('./assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR.jpg', 'Pavimento Inferior')">
+                         <img src="./assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR.jpg" alt="Pavimento Inferior" class="planta-image">
+                         <span>Pavimento Inferior</span>
+                     </div>
+                     <div class="planta-item" onclick="openModal('./assets/images/galeria/plantasantosdumont/PAVIMENTO SUPERIOR.jpg', 'Pavimento Superior')">
+                         <img src="./assets/images/galeria/plantasantosdumont/PAVIMENTO SUPERIOR.jpg" alt="Pavimento Superior" class="planta-image">
+                         <span>Pavimento Superior</span>
+                     </div>
+                     <div class="planta-item" onclick="openModal('./assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR - CASA 1 E 3.jpg', 'Casa 1 e 3 - Pavimento Inferior')">
+                         <img src="./assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR - CASA 1 E 3.jpg" alt="Casa 1 e 3 - Pavimento Inferior" class="planta-image">
+                         <span>Casa 1 e 3 - Pavimento Inferior</span>
+                     </div>
+                     <div class="planta-item" onclick="openModal('./assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR - CASA 2 E 4.jpg', 'Casa 2 e 4 - Pavimento Inferior')">
+                         <img src="./assets/images/galeria/plantasantosdumont/PAVIMENTO INFERIOR - CASA 2 E 4.jpg" alt="Casa 2 e 4 - Pavimento Inferior" class="planta-image">
+                         <span>Casa 2 e 4 - Pavimento Inferior</span>
+                     </div>
+                     <div class="planta-item" onclick="openModal('./assets/images/galeria/plantasantosdumont/PAVIMENTO SUPERIOR - CASA 1 E 3 (3).jpg', 'Casa 1 e 3 - Pavimento Superior')">
+                         <img src="./assets/images/galeria/plantasantosdumont/PAVIMENTO SUPERIOR - CASA 1 E 3 (3).jpg" alt="Casa 1 e 3 - Pavimento Superior" class="planta-image">
+                         <span>Casa 1 e 3 - Pavimento Superior</span>
+                     </div>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- Seção Jardim das Flores -->
+    <section id="jardim-flores" class="empreendimento-detalhe-section">
+        <div class="container">
+            <div class="empreendimento-header">
+                <h2 class="section-title">Residencial Jardim das Flores</h2>
+                <div class="status-badge-large em-andamento">Em Andamento</div>
+            </div>
+            
+            <div class="empreendimento-hero">
+                <img src="./assets/images/galeria/fotosJardimdasflores/Fotoprincipal.jpeg" alt="Residencial Jardim das Flores" class="hero-image-real">
+            </div>
+
+            <div class="empreendimento-info-detalhada">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Características</h3>
+                        <ul>
+                            <li><strong>2 dormitórios (um deles suíte)</strong> – conforto e privacidade</li>
+                            <li><strong>Área de 72 m²</strong> – bem distribuída e funcional</li>
+                            <li><strong>Sala integrada com sacada</strong> – excelente para iluminação natural e ventilação</li>
+                            <li><strong>Vagas demarcadas</strong> – organização e segurança ao estacionar</li>
+                            <li><strong>Quintal privativo (térreo)</strong> – espaço exclusivo para pet, lazer ao ar livre ou área gourmet</li>
+                            <li><strong>Acabamento fino</strong> – detalhes de alta qualidade com rodapés elegantes e revestimentos especiais</li>
+                            <li><strong>Porteiro inteligente</strong> – segurança e controle de acesso moderno</li>
+                            <li><strong>Torre única com apenas 8 unidades</strong> – sensação de exclusividade e menos circulação dentro do condomínio</li>
+                        </ul>
+                    </div>
+                    <div class="info-card">
+                        <h3>Status da Obra</h3>
+                        <div class="progress-container">
+                            <div class="progress-item">
+                                <span class="progress-label">Fundação</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100% Concluído</span>
+                            </div>
+                            
+                            <div class="progress-item">
+                                <span class="progress-label">Estrutura</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100% Concluído</span>
+                            </div>
+                            
+                            <div class="progress-item">
+                                <span class="progress-label">Alvenaria</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 80%"></div>
+                                </div>
+                                <span class="progress-text">80% Concluído</span>
+                            </div>
+                            
+                            <div class="progress-item">
+                                <span class="progress-label">Instalações</span>
+                                <div class="progress-bar">
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                                <span class="progress-text">60% Concluído</span>
+                            </div>
+                            
+                            <div class="progress-item">
+                                <span class="progress-label">Acabamento</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 40%"></div>
+                                </div>
+                                <span class="progress-text">40% Concluído</span>
+                            </div>
+                            
+                            <div class="progress-item">
+                                <span class="progress-label">Áreas Comuns</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 30%"></div>
+                                </div>
+                                <span class="progress-text">30% Concluído</span>
+                            </div>
+                        </div>
+                        
+                        <div class="progress-overall">
+                            <span class="progress-overall-label">Progresso Geral</span>
+                            <div class="progress-bar overall">
+                                <div class="progress-fill overall" style="width: 65%"></div>
+                            </div>
+                            <span class="progress-overall-text">65% Concluído</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ficha-tecnica">
+                    <h3>Ficha Técnica</h3>
+                    <div class="ficha-grid">
+                        <div class="ficha-coluna">
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">Endereço</span>
+                                <p>Rua Armando Fernandes da Costa, 286<br>Jardim das Flores - Suzano - CEP: 08664-000</p>
+                                <div class="mapa-container">
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1234567890123!2d-46.12345678901234!3d-23.12345678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDA3JzM0LjQiUyA0NsKwMDcnMzQuNCJX!5e0!3m2!1spt-BR!2sbr!4v1234567890123"
+                                        width="100%" 
+                                        height="200" 
+                                        style="border:0; border-radius: 10px; margin-top: 15px;" 
+                                        allowfullscreen="" 
+                                        loading="lazy" 
+                                        referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">Incorporação e Construção</span>
+                                <p>Zotti & Zotti Empreendimentos Imobiliários</p>
+                            </div>
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">Projeto Arquitetura</span>
+                                <p>Poyatos Arquitetura</p>
+                            </div>
+                        </div>
+                        <div class="ficha-coluna">
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">Área do terreno</span>
+                                <p>520,30m²</p>
+                            </div>
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">Área Construída</span>
+                                <p>552,28m²</p>
+                            </div>
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">N° de pavimentos</span>
+                                <p>04</p>
+                            </div>
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">Total de Unidades</span>
+                                <p>08</p>
+                            </div>
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">Vagas de Garagem</span>
+                                <p>08</p>
+                            </div>
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">N° de unidades por pavimento</span>
+                                <p>02</p>
+                            </div>
+                            <div class="ficha-item">
+                                <span class="ficha-categoria">Área unidade</span>
+                                <p>a partir de 72m²</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="galeria-section">
+                <h3>Galeria</h3>
+                <div class="galeria-grid">
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/fotosJardimdasflores/Fotoprincipal.jpeg" alt="Foto Principal" class="galeria-image">
+                        <span>Foto Principal</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/fotosJardimdasflores/AreaExterna.jpeg" alt="Área Externa" class="galeria-image">
+                        <span>Área Externa</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/fotosJardimdasflores/Sala.jpeg" alt="Sala" class="galeria-image">
+                        <span>Sala</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/fotosJardimdasflores/cozinha.jpeg" alt="Cozinha" class="galeria-image">
+                        <span>Cozinha</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/fotosJardimdasflores/quarto.jpeg" alt="Quarto" class="galeria-image">
+                        <span>Quarto</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/fotosJardimdasflores/quarto2.jpeg" alt="Quarto 2" class="galeria-image">
+                        <span>Quarto 2</span>
+                    </div>
+                    <div class="galeria-item">
+                        <img src="./assets/images/galeria/fotosJardimdasflores/churrasqueira.jpeg" alt="Churrasqueira" class="galeria-image">
+                        <span>Churrasqueira</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plantas-section">
+                <h3>Plantas dos Apartamentos</h3>
+                <div class="plantas-grid">
+                    <div class="planta-item">
+                        <i class="fas fa-home"></i>
+                        <span>2 Dormitórios<br>(1 Suíte)</span>
+                    </div>
+                    <div class="planta-item">
+                        <i class="fas fa-home"></i>
+                        <span>Área de 72 m²<br>Bem Distribuída</span>
+                    </div>
+                    <div class="planta-item">
+                        <i class="fas fa-home"></i>
+                        <span>Sala Integrada<br>com Sacada</span>
+                    </div>
+                    <div class="planta-item">
+                        <i class="fas fa-home"></i>
+                        <span>Quintal Privativo<br>Térreo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./assets/images/zottizottilogo.jpeg" alt="Zotti&Zotti" class="footer-logo-img">
+                    <span>24 Anos de Excelência</span>
+                    <div class="footer-logo-cnpj">
+                        <i class="fas fa-building"></i> CNPJ: 04.651.727/0001-90
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-section">
+                        <h4>Contato</h4>
+                        <p><i class="fas fa-phone"></i> (11) 93902-9785</p>
+                        <p><i class="fas fa-envelope"></i> contato@zottizotti.com.br</p>
+                        <p><i class="fas fa-map-marker-alt"></i> São Paulo, SP</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/Zottizottiemp" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/zottizottiemp" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@zottizottiemp" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <a href="https://conecta4you.com/" target="_blank" style="color: inherit; text-decoration: none;">conecta4you</a>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5511939029785" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal para visualização das fotos -->
+    <div id="imageModal" class="image-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="" alt="Imagem da Galeria">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="./public/js/script.js"></script>
+</body>
+</html>

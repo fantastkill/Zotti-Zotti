@@ -1,0 +1,49 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .script-text { font-family: 'Playfair Display', serif; font-style: italic; }
+      .serif-text { font-family: 'Playfair Display', serif; font-weight: 600; }
+      .decorative-line { stroke: #009739; stroke-width: 2; }
+      .lotus-petal { fill: none; stroke: #009739; stroke-width: 1.5; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F5F6F7"/>
+  
+  <!-- Top Lotus Flower -->
+  <g transform="translate(200, 60)">
+    <!-- Lotus petals -->
+    <path class="lotus-petal" d="M0,-15 Q5,-20 10,-15 Q15,-10 10,-5 Q5,0 0,-5 Q-5,0 -10,-5 Q-15,-10 -10,-15 Q-5,-20 0,-15 Z"/>
+    <path class="lotus-petal" d="M15,-5 Q20,-10 25,-5 Q30,0 25,5 Q20,10 15,5 Q10,0 15,-5 Z"/>
+    <path class="lotus-petal" d="M-15,-5 Q-20,-10 -25,-5 Q-30,0 -25,5 Q-20,10 -15,5 Q-10,0 -15,-5 Z"/>
+    <path class="lotus-petal" d="M10,10 Q15,15 20,10 Q25,5 20,0 Q15,-5 10,0 Q5,5 10,10 Z"/>
+    <path class="lotus-petal" d="M-10,10 Q-15,15 -20,10 Q-25,5 -20,0 Q-15,-5 -10,0 Q-5,5 -10,10 Z"/>
+  </g>
+  
+  <!-- Top horizontal line -->
+  <line class="decorative-line" x1="80" y1="100" x2="320" y2="100"/>
+  
+  <!-- Top dotted lines -->
+  <line class="decorative-line" x1="60" y1="100" x2="80" y2="100" stroke-dasharray="3,3"/>
+  <line class="decorative-line" x1="320" y1="100" x2="340" y2="100" stroke-dasharray="3,3"/>
+  
+  <!-- "Residencial" text -->
+  <text x="200" y="95" text-anchor="middle" class="script-text" font-size="24" fill="#009739">Residencial</text>
+  
+  <!-- "JARDIM DAS FLORES" text -->
+  <text x="200" y="180" text-anchor="middle" class="serif-text" font-size="32" fill="#009739" letter-spacing="2">JARDIM DAS FLORES</text>
+  
+  <!-- Bottom horizontal line -->
+  <line class="decorative-line" x1="80" y1="220" x2="320" y2="220"/>
+  
+  <!-- Bottom Lotus Flower -->
+  <g transform="translate(200, 240)">
+    <!-- Lotus petals -->
+    <path class="lotus-petal" d="M0,-15 Q5,-20 10,-15 Q15,-10 10,-5 Q5,0 0,-5 Q-5,0 -10,-5 Q-15,-10 -10,-15 Q-5,-20 0,-15 Z"/>
+    <path class="lotus-petal" d="M15,-5 Q20,-10 25,-5 Q30,0 25,5 Q20,10 15,5 Q10,0 15,-5 Z"/>
+    <path class="lotus-petal" d="M-15,-5 Q-20,-10 -25,-5 Q-30,0 -25,5 Q-20,10 -15,5 Q-10,0 -15,-5 Z"/>
+    <path class="lotus-petal" d="M10,10 Q15,15 20,10 Q25,5 20,0 Q15,-5 10,0 Q5,5 10,10 Z"/>
+    <path class="lotus-petal" d="M-10,10 Q-15,15 -20,10 Q-25,5 -20,0 Q-15,-5 -10,0 Q-5,5 -10,10 Z"/>
+  </g>
+</svg>

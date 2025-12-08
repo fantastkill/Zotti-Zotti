@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Residencial Jardim das Flores - Zotti&Zotti</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+    <link rel="stylesheet" href="public/css/styles.css?v=20250929">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- NOVO LOADER COM LOGO E BOAS-VINDAS -->
+    <div id="novoLoader" class="novo-loader">
+        <div class="loader-logo">
+            <img src="assets/images/zottizottilogo.jpeg" alt="Zotti&Zotti" class="loader-img">
+        </div>
+        <h2 class="loader-title">Zotti&Zotti</h2>
+        <p class="loader-subtitle">Bem-vindo ao nosso site</p>
+        <div class="loader-spinner"></div>
+        <p class="loader-text">Carregando...</p>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo" onclick="window.location.href='index.html'" style="cursor: pointer;">
+                    <img src="assets/images/zottizottilogo.jpeg" alt="Zotti & Zotti" class="logo-img">
+                    <div class="company-info">
+                        <span class="company-name">Zotti & Zotti</span>
+                        <span class="company-subtitle">Empreendimentos Imobiliários</span>
+                    </div>
+                    <span class="company-years">
+                        <span class="number">24</span>
+                        <span class="text">Anos</span>
+                    </span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#sobre" class="nav-link">Sobre Nós</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#footer" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section do Empreendimento -->
+    <section class="empreendimentos-hero-section">
+        <div class="hero-content">
+            <h1>Residencial Jardim das Flores</h1>
+            <p>Um novo conceito de moradia com áreas verdes e qualidade de vida excepcional</p>
+        </div>
+    </section>
+
+    <!-- Seção Detalhada do Empreendimento -->
+    <section class="empreendimento-detalhe-section">
+        <div class="container">
+            <div class="empreendimento-header">
+                <h2>Residencial Jardim das Flores</h2>
+                <div class="status-badge-large em-andamento">Em Andamento</div>
+            </div>
+
+
+            <!-- Informações Detalhadas -->
+            <div class="empreendimento-info-detalhada">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Status da Obra</h3>
+                        <div class="progress-container">
+                            <div class="progress-item">
+                                <span class="progress-label">Fundação</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 100%"></div>
+                                </div>
+                                <span class="progress-text">100%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Estrutura</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                                <span class="progress-text">75%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Alvenaria</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 75%"></div>
+                                </div>
+                                <span class="progress-text">75%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Instalações</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 10%"></div>
+                                </div>
+                                <span class="progress-text">10%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Acabamento</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0%"></div>
+                                </div>
+                                <span class="progress-text">0%</span>
+                            </div>
+                            <div class="progress-item">
+                                <span class="progress-label">Áreas Comuns</span>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 0%"></div>
+                                </div>
+                                <span class="progress-text">0%</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Progresso Geral -->
+                        <div class="progress-overall">
+                            <span class="progress-overall-label">Progresso Geral da Obra</span>
+                            <div class="progress-bar overall">
+                                <div class="progress-fill overall" style="width: 33%"></div>
+                            </div>
+                            <span class="progress-overall-text">33% Concluído</span>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <h3>Acompanhar Obras</h3>
+                        <div class="obra-gallery-container">
+                            <div class="obra-months" aria-label="Seleção de mês da obra">
+                                <!-- Ordem cronológica ascendente (usar estes nomes exatamente como as pastas) -->
+                                <button class="obra-month-btn" data-month="Julho 2023">Julho 2023</button>
+                                <button class="obra-month-btn" data-month="Novembro 2024">Novembro 2024</button>
+                                <button class="obra-month-btn" data-month="Dezembro 2024">Dezembro 2024</button>
+                                <button class="obra-month-btn" data-month="Janeiro 2025">Janeiro 2025</button>
+                                <button class="obra-month-btn active" data-month="Fevereiro 2025">Fevereiro 2025</button>
+                                <button class="obra-month-btn" data-month="Março 2025">Março 2025</button>
+                                <button class="obra-month-btn" data-month="Abril 2025">Abril 2025</button>
+                                <button class="obra-month-btn" data-month="Maio 2025">Maio 2025</button>
+                                <button class="obra-month-btn" data-month="Junho 2025">Junho 2025</button>
+                                <button class="obra-month-btn" data-month="Julho 2025">Julho 2025</button>
+                                <button class="obra-month-btn" data-month="Agosto 2025">Agosto 2025</button>
+                                <button class="obra-month-btn" data-month="Setembro 2025">Setembro 2025</button>
+                            </div>
+                            <div class="obra-gallery-main">
+                                <img id="obraGalleryImg" src="assets/images/obra-jardim-flores/Fevereiro 2025/fev1.JPG" alt="Acompanhe a obra">
+                                <div class="obra-gallery-controls">
+                                    <button class="obra-gallery-btn obra-gallery-prev" onclick="changeObraImage(-1)">‹</button>
+                                    <button class="obra-gallery-btn obra-gallery-next" onclick="changeObraImage(1)">›</button>
+                                </div>
+                                <div class="obra-gallery-info">
+                                    <span class="obra-gallery-date">Jul. 2023</span>
+                                    <span class="obra-gallery-counter"><span id="obraGalleryIndex">1</span>/<span id="obraGalleryTotal">5</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ficha Técnica -->
+                            <div class="ficha-tecnica">
+                    <div class="ficha-grid">
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Endereço</span>
+                            <p>Rua Armando Fernandes da Costa, 286<br>Jardim das Flores - Suzano - CEP: 08664-720</p>
+                            <div class="mapa-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10343.698354138154!2d-46.32071431888081!3d-23.566661148769377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce708b9552dc49%3A0xa27b55cb88d6e845!2sR.%20Armando%20Fernandes%20da%20Costa%2C%20286%20-%20Jardim%20das%20Flores%2C%20Suzano%20-%20SP%2C%2008664-720!5e0!3m2!1spt-BR!2sbr!4v1756817450706!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Ficha Técnica</h3>
+                    <div class="ficha-cards-container">
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Incorporação e Construção</span>
+                            <p>Zotti & Zotti Empreendimentos Imobiliários</p>
+                        </div>
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Projeto Arquitetura</span>
+                            <p>Poyatos Arquitetura</p>
+                        </div>
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Área do terreno</span>
+                            <p>520,30 m²</p>
+                        </div>
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Área Construída</span>
+                            <p>552,28 m²</p>
+                        </div>
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Estrutura do Edifício</span>
+                            <p>4 pavimentos<br>2 unidades por pavimento</p>
+                        </div>
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Total de Unidades</span>
+                            <p class="numero-centralizado">8</p>
+                        </div>
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Vagas de Garagem</span>
+                            <p class="numero-centralizado">8</p>
+                        </div>
+                        <div class="ficha-item">
+                            <span class="ficha-categoria">Área da unidade</span>
+                            <p>A partir de 72 m²</p>
+                        </div>
+                    </div>
+                </div>
+
+            <style>
+                .numero-centralizado {
+                    text-align: center !important;
+                    display: flex !important;
+                    align-items: center !important;
+                    justify-content: center !important;
+                    height: 100% !important;
+                    font-size: 1.5rem !important;
+                    font-weight: bold !important;
+                }
+
+            </style>
+
+            <!-- Galeria de Fotos -->
+            <div class="galeria-section">
+                <h3>Galeria de Fotos</h3>
+                <div class="galeria-grid">
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/fotosJardimdasflores/AreaExterna.jpeg', 'Área Externa')">
+                        <img src="assets/images/galeria/fotosJardimdasflores/AreaExterna.jpeg" alt="Área Externa" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/fotosJardimdasflores/cozinha.jpeg', 'Cozinha')">
+                        <img src="assets/images/galeria/fotosJardimdasflores/cozinha.jpeg" alt="Cozinha" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/fotosJardimdasflores/Sala.jpeg', 'Sala')">
+                        <img src="assets/images/galeria/fotosJardimdasflores/Sala.jpeg" alt="Sala" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/fotosJardimdasflores/quarto.jpeg', 'Quarto')">
+                        <img src="assets/images/galeria/fotosJardimdasflores/quarto.jpeg" alt="Quarto" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/fotosJardimdasflores/quarto2.jpeg', 'Quarto 2')">
+                        <img src="assets/images/galeria/fotosJardimdasflores/quarto2.jpeg" alt="Quarto 2" class="galeria-image">
+                    </div>
+                    <div class="galeria-item" onclick="openModal('assets/images/galeria/fotosJardimdasflores/churrasqueira.jpeg', 'Churrasqueira')">
+                        <img src="assets/images/galeria/fotosJardimdasflores/churrasqueira.jpeg" alt="Churrasqueira" class="galeria-image">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Seção de Vídeos em Paralax -->
+            <div class="videos-parallax-section" style="display: none;">
+                <div class="parallax-background">
+                    <div class="videos-container">
+                        <h3>Vídeos do Empreendimento</h3>
+                        <p>Conheça o Residencial Jardim das Flores através dos nossos vídeos</p>
+                        <div class="videos-grid">
+                            <div class="video-item">
+                                <video controls preload="metadata" poster="assets/images/galeria/fotosJardimdasflores/Fotoprincipal.jpeg">
+                                    <source src="assets/images/galeria/fotosJardimdasflores/WhatsApp Video 2025-08-28 at 00.59.38.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeos HTML5.
+                                </video>
+                                <span>Vídeo 1 - Tour do Empreendimento</span>
+                            </div>
+                            <div class="video-item">
+                                <video controls preload="metadata" poster="assets/images/galeria/fotosJardimdasflores/AreaExterna.jpeg">
+                                    <source src="assets/images/galeria/fotosJardimdasflores/WhatsApp Video 2025-08-28 at 00.59.39.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeos HTML5.
+                                </video>
+                                <span>Vídeo 2 - Área Externa</span>
+                            </div>
+                            <div class="video-item">
+                                <video controls preload="metadata" poster="assets/images/galeria/fotosJardimdasflores/cozinha.jpeg">
+                                    <source src="assets/images/galeria/fotosJardimdasflores/WhatsApp Video 2025-08-28 at 00.59.41.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeos HTML5.
+                                </video>
+                                <span>Vídeo 3 - Cozinha</span>
+                            </div>
+                            <div class="video-item">
+                                <video controls preload="metadata" poster="assets/images/galeria/fotosJardimdasflores/Sala.jpeg">
+                                    <source src="assets/images/galeria/fotosJardimdasflores/WhatsApp Video 2025-08-28 at 00.59.43.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeos HTML5.
+                                </video>
+                                <span>Vídeo 4 - Sala de Estar</span>
+                            </div>
+                            <div class="video-item">
+                                <video controls preload="metadata" poster="assets/images/galeria/fotosJardimdasflores/quarto.jpeg">
+                                    <source src="assets/images/galeria/fotosJardimdasflores/WhatsApp Video 2025-08-28 at 00.59.44.mp4" type="video/mp4">
+                                    Seu navegador não suporta vídeos HTML5.
+                                </video>
+                                <span>Vídeo 5 - Quartos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção de Plantas -->
+            <div class="plantas-section">
+                <h3>Plantas dos Apartamentos</h3>
+                <div class="plantas-grid">
+                    <div class="planta-item" onclick="openModal('assets/images/galeria/plantajardimdasflores/planta2.png', 'Planta Final - Distribuição')">
+                        <img src="assets/images/galeria/plantajardimdasflores/planta2.png" alt="Planta Final - Distribuição" class="planta-image">
+                        <span>Planta 1º ao 3º </span>
+                    </div>
+                    <div class="planta-item" onclick="openModal('assets/images/galeria/plantajardimdasflores/planta3.png', 'Planta Garden - Detalhes')">
+                        <img src="assets/images/galeria/plantajardimdasflores/planta3.png" alt="Planta Garden - Detalhes" class="planta-image">
+                        <span>Planta Garden</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/zottizottilogo.jpeg" alt="Zotti&Zotti" class="footer-logo-img">
+                    <span>24 Anos de Excelência</span>
+                    <div class="footer-logo-cnpj">
+                        <i class="fas fa-building"></i> CNPJ: 04.651.727/0001-90
+                    </div>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-section">
+                        <h4>Contato</h4>
+                        <p><i class="fas fa-phone"></i> (11) 93902-9785</p>
+                        <p><i class="fas fa-envelope"></i> contato@zottizotti.com.br</p>
+                        <p><i class="fas fa-map-marker-alt"></i> São Paulo, SP</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Redes Sociais</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/Zottizottiemp" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/zottizottiemp" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@zottizottiemp" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 <a href="https://conecta4you.com/" target="_blank" style="color: inherit; text-decoration: none;">conecta4you</a>. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5511939029785" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Modal para visualização das fotos -->
+    <div id="imageModal" class="image-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img id="modalImage" src="" alt="Imagem Ampliada">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/js/script.js?v=20250929"></script>
+</body>
+</html>
